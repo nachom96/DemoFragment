@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 
-class Option1Fragment() : Fragment(R.layout.option1_fragment) {
+class Option3Fragment() : Fragment(R.layout.option3_fragment) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

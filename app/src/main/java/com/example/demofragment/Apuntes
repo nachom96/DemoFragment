@@ -1,0 +1,2 @@
+1- Importar fragmentos para poder usar sus métodos, como el .commit:
+    - build.gradle (modulo): implementation 'androidx.fragment:fragment-ktx:1.4.1'
