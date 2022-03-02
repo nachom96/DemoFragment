@@ -1,7 +1,7 @@
 package com.example.demofragment
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.example.demofragment.databinding.MainActivityBinding
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.main_activity)
         setupViews()
         if (savedInstanceState == null) {
-            showOption(2)
+            showOption(5)
         }
     }
 
@@ -35,5 +35,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
-
