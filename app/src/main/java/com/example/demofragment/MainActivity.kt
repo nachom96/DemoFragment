@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
+        setContentView(binding.root)
         setupViews()
         if (savedInstanceState == null) {
-            showOption(5)
+            showOption(1)
         }
     }
 
