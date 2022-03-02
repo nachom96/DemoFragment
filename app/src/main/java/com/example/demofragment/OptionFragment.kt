@@ -24,6 +24,7 @@ class OptionFragment : Fragment(R.layout.option_fragment) {
     }
 
     private fun setupViews(view: View) {
+        requireActivity().title = getString(R.string.option_title, option)
         binding.lblNumber.text = option.toString()
     }
     companion object {
