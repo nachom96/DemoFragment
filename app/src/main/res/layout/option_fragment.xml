@@ -13,4 +13,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         tools:text="1" />
 
+    <Button
+        android:id="@+id/btnIncrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="Increment" />
+
 </FrameLayout>
