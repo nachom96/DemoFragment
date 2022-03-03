@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
+import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import com.example.demofragment.databinding.OptionFragmentBinding
 
 class OptionFragment() : Fragment(R.layout.option_fragment) {
 
-    private val viewModel: OptionFragmentViewModel by viewModels()
+    private val viewModel: OptionFragmentViewModel by activityViewModels()
 
     private var _binding: OptionFragmentBinding? = null
     private val binding get() = _binding!!

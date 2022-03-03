@@ -1,6 +1,10 @@
 1- Importar fragmentos para poder usar sus métodos, como el .commit:
     - build.gradle (modulo): implementation 'androidx.fragment:fragment-ktx:1.4.1'
 
+2- En OptionFragment, para que se comparta el recurso entre los distintos fragmentos, se pone
+private val viewModel: OptionFragmentViewModel by activityViewModels(), así se usa la actividad como
+propietario del almacén de viewModels, funciona porque los dos fragmentos están en la misma actividad
+
 
 CLASE OPTION FRAGMENT USANDO IMPORTACIÓN ZHUINDEN:
 
