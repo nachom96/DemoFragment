@@ -18,7 +18,7 @@ class OptionFragment() : Fragment(R.layout.option_fragment) {
     private val binding get() = _binding!!
 
     private val option: Int by lazy {
-        requireArguments().getInt(ARG_OPTION, 0)
+        requireArguments().getInt(ARG_OPTION)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
